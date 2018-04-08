@@ -3,4 +3,4 @@ rvm:
   - 2.5.0
   - ruby
 script:
-  - bundle exec rake build
+  - bundle install && bundle exec rake build
